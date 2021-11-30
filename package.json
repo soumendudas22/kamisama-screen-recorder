@@ -1,8 +1,8 @@
 {
-  "name": "screen-recoder",
-  "productName": "screen-recoder",
+  "name": "kamisama-screen-recoder",
+  "productName": "kamisama-screen-recoder",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "🎥 A simple Electron based screen recording app",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",

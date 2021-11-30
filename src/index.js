@@ -1,6 +1,5 @@
-const { app, BrowserWindow, Menu, MenuItem, shell } = require('electron');
+const { app, BrowserWindow, Menu, shell } = require('electron');
 const path = require('path');
-const { electron } = require('process');
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
 if (require('electron-squirrel-startup')) { // eslint-disable-line global-require
@@ -70,7 +69,7 @@ const createWindow = () => {
     minHeight: 700,
     fullscreen: true,
     darkTheme: true,
-    icon: path.join(__dirname, 'assets/logo.png')
+    icon: path.join(__dirname, 'assets/logo.ico')
   });
 
   // and load the index.html of the app.

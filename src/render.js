@@ -1,6 +1,6 @@
 // Require packages
 const { desktopCapturer, remote } = require("electron");
-const { dialog, Menu, Notification } = remote;
+const { dialog, Menu } = remote;
 const { writeFile } = require("fs");
 
 // Buttons
